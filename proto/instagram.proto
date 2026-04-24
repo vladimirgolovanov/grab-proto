@@ -28,4 +28,5 @@ message PostResponse {
   string text = 2;
   string image_url = 3;
   string error = 4;
+  bytes image_data = 5;
 }
